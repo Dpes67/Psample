@@ -2,7 +2,7 @@ import random
 def my_hand():
     hand=input("enter rock, paper or scissors?\n")
     return hand
-
+    
 def computer_choice():
     list=['rock','paper','scissors']
     choice=random.choice(list)
